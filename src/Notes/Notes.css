@@ -1,0 +1,48 @@
+.n-head{
+    width: 100%;
+    height: 100vh;
+}
+.n-sem-list{
+    margin: 50px 50px 50px 50px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+.n-sem{
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 220px;
+    margin: 20px;
+    transition: all .5s;
+}
+.n-sem:hover{
+    transform: scale(1.1);
+}
+.n-sem-disable:hover{
+    transform: none;
+}
+.n-sem1{
+    background-image: url(../img/sem-1.png);
+}
+.n-sem2{
+    background-image: url(../img/sem-2.png);
+}
+.n-sem3{
+    background-image: url(../img/sem-3.png);
+}
+.n-sem4{
+    background-image: url(../img/sem-4.png);
+}
+.n-sem5{
+    background-image: url(../img/sem-5.png);
+}
+.n-sem6{
+    background-image: url(../img/sem-6.png);
+}
+.n-sem7{
+    background-image: url(../img/sem-7.png);
+}
+.n-sem8{
+    background-image: url(../img/sem-8.png);
+}

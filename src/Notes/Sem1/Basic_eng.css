@@ -1,0 +1,33 @@
+.s1-be-container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+.s1-above-map{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 100px;
+    justify-content: center;
+}
+.s1-pdf{
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+}
+.s1-img{
+    width: 150px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    border-radius: 20px;
+    margin-bottom: 10px;
+    transition: all .2s;
+}
+.s1-img:hover{
+    transform: scale(1.1);
+}
+.s1-p{
+    width: 150px;
+}
+

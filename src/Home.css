@@ -1,0 +1,47 @@
+.h-head{
+    background-image: url(./img/back-one.png);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.h-content{
+    height: 75%;
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
+.h-para{
+    font-weight: 500;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.h-btn{
+    font-size: 20px;
+    color: white;
+    padding: 20px;
+    background-color: #534CC7;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    transition: all .5s;
+    cursor: pointer;
+}
+.h-btn-NavLink{
+    text-decoration: none;
+    color: white;
+}
+.h-btn:hover{
+    transform: scale(1.1    );
+}
+
+@media(max-width:1000px) {
+    .h-para{
+        font-size: 22px;
+    }
+    .h-btn{
+    font-size: 15px;
+    padding: 15px;
+    }
+}

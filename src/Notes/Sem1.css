@@ -1,0 +1,35 @@
+.sem1-head{
+    width: 100%;
+    height: 100vh;
+}
+.sem1-list{
+    display: flex;
+    justify-content: flex-start; 
+    flex-wrap: wrap;
+    margin: 50px 50px 50px 50px;
+    align-content: flex-start;
+}
+.s1-sub-card{
+    width: fit-content;
+    text-align: center;
+    margin: 20px;
+    transition: all .2s;
+    padding: 10px;
+}
+.s1-sub-card:hover{
+    transform: scale(1.1);
+}
+.sem1-card-text{
+    color: black;
+    font-size: 25px;
+}
+.sem1-navlink{
+    text-decoration: none;
+}
+.sem-card-img{
+    width: 180px;
+    border-radius: 30px;
+    box-shadow: 10px 10px 5px 0px rgba(118,118,112,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(118,118,112,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(118,118,112,0.75);
+}
