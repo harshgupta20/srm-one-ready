@@ -6,12 +6,6 @@ import Notes from './Notes/Notes';
 import About from './About'
 import Sem1 from './Notes/Sem1';
 import Sem2 from './Notes/Sem2';
-import Sem3 from './Notes/Sem3';
-import Sem4 from './Notes/Sem4';
-import Sem5 from './Notes/Sem5';
-import Sem6 from './Notes/Sem6';
-import Sem7 from './Notes/Sem7';
-import Sem8 from './Notes/Sem8';
 //SEMESTER-1
 import S1_BasicEng from './Notes/Sem1/Basic_eng';
 import S1_Biology from './Notes/Sem1/Biology';
@@ -41,12 +35,6 @@ export default function App() {
             <Route exact path='/About' component={About} />
             <Route exact path='/Notes/Sem1' component={Sem1} />
             <Route exact path='/Notes/Sem2' component={Sem2} />
-            <Route exact path='/Notes/Sem3' component={Sem3} />
-            <Route exact path='/Notes/Sem4' component={Sem4} />
-            <Route exact path='/Notes/Sem5' component={Sem5} />
-            <Route exact path='/Notes/Sem6' component={Sem6} />
-            <Route exact path='/Notes/Sem7' component={Sem7} />
-            <Route exact path='/Notes/Sem8' component={Sem8} />
             {/* SEMESTER1 */}
             <Route exact path='/Notes/Sem1/Basic_eng' component={S1_BasicEng} />
             <Route exact path='/Notes/Sem1/Biology' component={S1_Biology} />
