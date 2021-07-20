@@ -1,6 +1,6 @@
 # SRMONE.IN is the project created for the SRM University students to provide them resources for learning new skills and technology with the comfort of their home.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is not associated with any intstitue, organisation or company, it is solely created by some students to help student community and it is completely open source.
 
 ## Available Scripts
 
